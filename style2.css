@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img,
+iframe {
+max-width: 300px;
+height: auto;
+border: 0;
+}
+
+body { 
+	background-color:#000020;
+	max-height: 100%;
+	margin: auto;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "WDXL Lubrifont TC", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+.roboto-uniquifier {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+
+.p1, .p2{
+	color: aliceblue;
+}
+
+.p1 {
+	font-size: 40px;
+}
+
+.p2 {
+	font-size: 20px;
+}
+
+.footer {
+	color: aliceblue;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Buttons */
+button {
+	background-color: aliceblue;
+	border: none;
+	color: black;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 10px;
+	font-family: "WDXL Lubrifont TC", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+button a{
+	color: black;
+	text-decoration: none;
+}
+
+button:hover{
+	background-color: aquamarine;
+}
